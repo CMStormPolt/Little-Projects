@@ -9,5 +9,5 @@ import {router} from './routing.js';
             $('#new-material').removeClass('hidden');        
         } 
     })
-// start routing  asd
+// start routing  
    router.init()
