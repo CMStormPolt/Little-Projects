@@ -1,0 +1,16 @@
+.maybe-hidden {
+    display: none;
+}
+.cust-form-add {
+    position: fixed;
+    bottom: 197px;
+    right: 34px;
+    display: none;
+    z-index: 200;
+}
+.cust-form-search {
+    position: absolute;
+    top: 77px;
+    right: 100px;
+    z-index: 200;
+}

@@ -1,0 +1,19 @@
+<div class="row">
+<div id="{{result.id}}" class="container col-md-6 col-md-offset-2">  
+  <h2><a href="http://localhost:3001/?#/materials/{{result.id}}">{{result.title}}</a></h2>
+  <img src="{{result.img}}" class="img-rounded" alt="Cinque Terre" width="600" height="352">
+  {{#if result.description}}
+    <h4>Description: {{description}}</h4>
+  {{/if}}
+  <p><span>Rating: {{result.rating}} </span>  <span>: Comments: {{result.commentsCount}}</span></p>
+  <p>By <a href="http://localhost:3001/?#/profiles/{{result.user.username}}">{{result.user.username}}</a></p>
+  <div class="comments-container">
+      {{#result.comments}}
+        <div class="comment">
+        <p>{{text}}</p>
+        <p>By <a href="http://localhost:3001/?#/profiles/{{user.username}}">{{user.username}}</a></p>
+        </div>
+      {{/result.comments}}      
+  </div>
+</div>
+</div>
