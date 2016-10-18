@@ -5,7 +5,7 @@ var expect = require("chai").expect;
 describe("Tests", () => {
     let result;
     beforeEach(() => {
-        result = require("../task/task-2")();
+        result = require("../task/app")();
     });
 
     describe("Zero tests", () => {
