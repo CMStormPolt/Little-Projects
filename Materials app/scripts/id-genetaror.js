@@ -9,4 +9,4 @@ let idGen = (function(){
         newId
     }
 }())
-let rambo = idGen.newId
+
