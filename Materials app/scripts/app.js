@@ -10,4 +10,4 @@ import {router} from './routing.js';
         } 
     })
 // start routing  
-   router.init();
+   router.init()
