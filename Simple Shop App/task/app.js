@@ -4,7 +4,7 @@
 
 function solve(){
     let costSum = 0,
-        typesToReturn = []
+        typesToReturn = [];
     class Product{
         constructor(productType,name,price){
      
